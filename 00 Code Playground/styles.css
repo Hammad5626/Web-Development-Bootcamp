@@ -1,0 +1,72 @@
+/***********************  Tag Selectors  ***********************/
+
+body{
+    background-color: powderblue;
+}
+
+/***********************  Class Selectors  ***********************/
+
+.third-day{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.redbox{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 200px;
+    display: inline-block;
+}
+
+.bluebox{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: 100px;
+    display: inline-block;
+}
+
+.yellowbox{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: 100px;
+    display: inline-block;
+}
+
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+/***********************  ID Selectors  ***********************/
+
+#first-hr{
+    border-style: dashed;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Day</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS -->
+    <style>
+        hr{
+            border-style: dotted none none;
+            height: 0px;
+            width: 5%;
+            border-color: grey;
+            border-width: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h3 class="third-day">Applying Table background-color using inline CSS</h3>
+    <hr id="first-hr">
+    <!-- Inline CSS -->
+    <table border="1" style="background-color: aqua;">
+        <thead>
+            <th>Head1</th>
+            <th>Head2</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Element1R1</td>
+                <td>Element2R1</td>
+            </tr>
+            <tr>
+                <td>Element1R2</td>
+                <td>Element2R2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Foot1</td>
+                <td>Foot2</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <h4>Horizontal Rule changed via internal CSS</h4>
+    <h4>background-color changed via external CSS</h4>
+</body>
+</html>

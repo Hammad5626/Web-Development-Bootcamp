@@ -1,0 +1,29 @@
+h3{
+    color: #66BFBF;
+}
+h1{
+    color: #66BFBF;
+}
+
+h1:hover{
+    font-style: italic;
+}
+
+h3:hover{
+    font-style: italic;
+}
+hr:hover{
+    border-style: solid, none, none;
+}
+
+a:hover{
+    background-color: #CEE5D0;
+}
+
+li:hover{
+    font-style: oblique;
+}
+
+img:hover{
+    background-color: aqua;
+}

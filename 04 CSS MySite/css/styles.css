@@ -1,0 +1,186 @@
+/*---------------------->  Tag Selectors  <---------------------------*/
+
+a{
+    color: #11999E;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+body{
+    line-height: 2;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-size: 6.625rem;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #66BFBF;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    border-color: grey;
+    border-style: dotted none none;
+    height: 0px;
+    margin: 40px auto;
+    width: 5%;
+    border-width: 5px
+}
+
+p{
+    color: #40514E;
+}
+
+/*---------------------->  Class Selectors  <---------------------------*/
+
+/*---------->  Containers  <------------*/
+
+.top-container{
+    background-color: #EAF6F6;
+    padding-top: 50px;
+    margin: 0 auto 50px;
+    position: relative;
+}
+
+.middle-container{
+    margin: 50px auto;
+}
+
+.bottom-container{/*--->  Footer Div  <---*/
+    background-color: #66BFBF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*---------->  Skills  <------------*/
+
+.skills{
+    margin: 50px auto auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skills-img1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skills-img2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/*---------->  Profile  <------------*/
+
+.nerd{
+    font-weight: normal;
+}
+
+.profile-picture{
+    border-radius: 100%;
+    width: 12.5%;
+}
+
+.profile{
+    margin: auto auto 50px;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+/*---------->  Clouds  <------------*/
+
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 30%;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 25%;
+}
+
+/*---------->  Contact Me  <------------*/
+
+.contact-me{
+    margin: 100px auto auto;
+}
+
+.contact-paragraph{
+    width: 30%;
+    margin: auto;
+}
+
+/*---------->  Footers  <------------*/
+
+.footer-para{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+
+.footer-button {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 10px;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 50px;
+}
+
+.footer-button:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
